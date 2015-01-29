@@ -9,7 +9,7 @@ Created after reading [Learning the vi and vim editors seventh editor. O`Reilly,
 - [Navigation](#navigation)
 - [Change Delete Copy patterns](#change-delete-copy-patterns)
 - [Opening files](#opening-files)
-- [Buffering](#Buffering)
+- [Buffering](#buffering)
 - [Marks](#marks)
 - [Replacement](#replacement)
 - [Advanced editing](#advanced-editing)
@@ -158,7 +158,7 @@ tag mytag                          # Finds a tag
 ^]                                 # Go to the tag under cursor
 ```
 
-## Window control
+## Multiple windows
 ```
 C-Wh
 C-Wl
