@@ -5,7 +5,7 @@ Use all commands with `git` at the beginning(expect those that begins with `$` o
 
 - [Help](#help)
 - [Config](#config)
-- [Staging/unstaging](#staging/unstaging)
+- [Staging/unstaging](#stagingunstaging)
 - [Diff](#diff)
 - [History](#history)
 - [Undos](#undos)
