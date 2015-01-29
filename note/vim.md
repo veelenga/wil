@@ -1,17 +1,34 @@
-################################################################################
-# Basics
-################################################################################
+# Vim notes
+
+Created after reading [Learning the vi and vim editors seventh editor. O`Reilly, 2008](http://shop.oreilly.com/product/9780596529833.do)
+
+- [Basics](#basics)
+- [Scrolling](#scrolling)
+- [Moving around the text](#moving-around-the-text)
+- [Searching](#searching)
+- [Navigation](#navigation)
+- [Change Delete Copy patterns](#change-delete-copy-patterns)
+- [Opening files](#opening-files)
+- [Buffering](#Buffering)
+- [Marks](#marks)
+- [Replacement](#replacement)
+- [Advanced editing](#advanced-editing)
+- [Multiple windows](#multiple-windows)
+- [Features for programmers](#features-for-programmers)
+- [Other cool stuff](#other-cool-stuff)
+
+## Basics
+```
 wq, ZZ                              # Saves and exits
 set wm=10                           # Wrapmargin
 w, W(b, B)                          # Navigation on words
 23G                                 # Go to line
-
-(command)(number)(text obj)
-        d2w
-        y3w
-
+                                    # Command format:
+                                    #  (command)(number)(text obj)
+                                    #       d2w
+                                    #       y3w
 s, S                                # Substitutes symbol or line
-r, R                                # Replaces sysmbol or line
+r, R                                # Replaces symbol or line
 x, X                                # Deletes symbol before, after cursor
 
 c, C                                # Replaces <object>, end of line
@@ -26,10 +43,10 @@ C-R                                 # Redo
 
 25i*
 10aword                             # Multiple insert
+```
 
-################################################################################
-# Scrolling
-################################################################################
+## Scrolling
+```
 C-F                                 # Scroll hole page forward
 C-B                                 # Back
 
@@ -46,20 +63,20 @@ z-                                  # Bottom
 H                                   # Moves cursor to the top
 M                                   # Middle
 L                                   # Bottom
+```
 
-################################################################################
-# Moving around the text
-################################################################################
+## Moving around the text
+```
 (                                   # move to the beginning of current sentence
 )                                   # move to the beginning of next sentence
 {                                   # move to the beginning of current paragraph
 }                                   # move to the beginning of next paragraph
 [[                                  # move to beginning of current section
-]]                                  # move to beginnign of next section                                 
+]]                                  # move to beginning of next section
+```
 
-################################################################################
-# Searching
-################################################################################
+## Searching
+```
 /, ?
 f, F
 ;, ,
@@ -67,55 +84,54 @@ f, F
 dfx, cfx
 dtx, ctx
 ct.                                 # Change the hole sentence
+```
 
-
-################################################################################
-# Navigation
-################################################################################
+## Navigation
+```
 5G
 ``                                  # Go back before 5G
 ''                                  # Go back before 5G to the begging of line
+```
 
-################################################################################
-# Change  Delete  Copy            From cursor to...
-################################################################################
-    cH      dH      yH              # Top of screen
-    cL      dL      yL              # Bottom of screen
-    c+      d+      y+              # Next line
-    c5|     d5|     y5|             # Column 5 of current line
-    2c)     2d)     2y)             # Second sentence following
-    c{      d{      y{              # Previous paragraph
-    c/prn   d/prn   y/prn           # Pattern
-    cn      dn      yn              # Next pattern
-    cG      dG      yG              # End of file
-    c13G    d13G    y13G            # Line number 13
+## Change Delete Copy patterns
+| Change | Delete | Copy   | From cursor to...        |
+|--------|--------|--------| -------------------------|
+|   cH   |  dH    |  yH    | Top of screen            |
+|   cL   |  dL    |  yL    | Bottom of screen         |
+|   c+   |  d+    |  y+    | Next line                |
+|   c5\| |  d5\|  |  y5\|  | Column 5 of current line |
+|   2c)  |  2d)   |  2y)   | Second sentence following|
+|   c{   |  d{    |  y{    | Previous paragraph       |
+|   c/prn|  d/prn |  y/prn | Pattern                  |
+|   cn   |  dn    |  yn    | Next pattern             |
+|   cG   |  dG    |  yG    | End of file              |
+|   c13G |  d13G  |  y13G  | Line number 13           |
 
-################################################################################
-# Opening files
-################################################################################
+## Opening files
+```
 vi +n files                         # Opens file and puts curson on line n
 vi + file                           # Puts curson on last line
 vi +/prn                            # Puts curson on pattern
+```
 
-################################################################################
-# Buffering
-################################################################################
+## Buffering
+```
 "1p                                 # Restores from buffer #1
 "1pu.u.u.u                          # Search through this buffer
 "ayy
 "aP
 "Ayy                                # Append to buffer a
+```
 
-################################################################################
-# Marks
-################################################################################
+## Marks
+```
 mx    
 `x
 'x                                  # Went to begging of the line
+```
 
-################################################################################
-# Global replacement
-################################################################################
+## Replacement
+```
 50, 100s:old:new:gc                 # g - global, c - confirm
 %s:old:new:g                        # % - entire file
 g:pattern:s:old:new:g               # Replaces in lines with /pattern/
@@ -127,10 +143,10 @@ g:pattern:s:old:new:g               # Replaces in lines with /pattern/
 %s:her:~:g                          # ~ - use same text from previous
 s:\(That\) \(this\):\u\2 \l\1:g     # \u,\l - upper, lower case
 s:\<child\>:children:g              # \<\> - matches a word
+```
 
-################################################################################
-# Advanced editing
-################################################################################
+## Advanced editing
+```
 set autoindent
 C-T                                # New level of indentation (in insert mode)
 C-D                                # One level of indentation back
@@ -140,10 +156,10 @@ set shiftwidth = 2
 ctags
 tag mytag                          # Finds a tag
 ^]                                 # Go to the tag under cursor
+```
 
-################################################################################
-# Window control
-################################################################################
+## Window control
+```
 C-Wh
 C-Wl
 C-Wj
@@ -170,10 +186,10 @@ C-W<                               # Increases in vertical
 resize -10
 vertical resize 5
 C-W|                               # Resizes most widely
+```
 
-################################################################################
-# Enhancement for programmers
-################################################################################
+## Features for programmers
+```
 zf                                 # Creates fold
 zo                                 # Opens fold
 zO                                 # Opens all folds
@@ -188,10 +204,10 @@ C-X,C-F                            # File completion
 C-X,C-L                            # Line completion
 C-N                                # Moves to next completion
 C-P                                # Moves to previous completion
+```
 
-################################################################################
-# Another cool stuff
-################################################################################
+## Other cool stuff
+```
 set binary                         # Enables binary mode
 :digraphs                          # Shows all digraphs
 C-K23                              # ⅔
@@ -209,3 +225,4 @@ dp                                 # Puts changes from curr to other
 :mksession mysession.vim           # Saves a session
 :source mysession.vim              # Loads a session
 set sessionoptions=                # Adds some options to be saved in session
+```
