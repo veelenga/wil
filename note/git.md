@@ -1,9 +1,33 @@
-################################################################################
-# Help 
-################################################################################
-git help config
-git config help
-man git-config
+# Git notes
+Created after reading [Pro Git - Scott Chacon, 2010](https://progit.org/)
+
+Use all commands with `git` at the beginning(expect those that begins with `$` or `:`)
+
+- [Help](#Help)
+- [Config](#Config)
+- [Staging/unstaging](#Staging/unstaging)
+- [Diff](#Diff)
+- [History](#History)
+- [Undos](#Undos)
+- [Remote](#Remote)
+- [Tags](#Tags)
+- [Branching](#Branching)
+- [Server](#On the server)
+- [Debugging](#Debugging)
+- [Submodules](#Submodules)
+- [Attributes](#Attributes)
+- [Hooks](#Hooks)
+
+## Help 
+```sh
+help config
+config help
+$man git-config
+```
+
+## Config
+```sh
+config --global merge.tool gvimdiff
 config --global user.name "John Doe"
 config --global user.email jogndoe@gmail.com
 config --global commit.template $HOME/.gimessages.txt
@@ -12,15 +36,10 @@ config --global color.diff.meta “blue black bold”
 config --system receive.fsckObjects true  # Checks sha-1 sums before every push
 config --system receive.denyNonFastForwards true
 config --system receive.denyDeletes true
+```
 
-################################################################################
-# Config
-################################################################################
-config --global merge.tool gvimdiff
-
-################################################################################
-# Staging/unstaging
-################################################################################
+## Staging/unstaging
+```sh
 status                                # To see what is happening there :D
 diff                                  # To see what is changed on unstaged area
 rm/add *.c                            # Removes from disk/add to stage area files
@@ -35,7 +54,6 @@ mv file1 file2                        # Renames file in staged area the same as:
 diff --check                          # Verify your changes before commit
 add -i                                # Interactive menu. Very useful
 add -p                                # Or --patch. Partial staging
-
 stash                                 # Store your 'dirty' files
 stash list                            # List of your stashes
 stash apply                           # Revert (unstash) your repo
@@ -43,14 +61,19 @@ stash apply stash@{2}                 # Apply previous stash
 stash apply --index                   # Try to apply stage changes on another 
                                       #    branch
 stash show -p | git apply -R          # Unapply last stash
+```
+
+## Diff
+```sh
 mergetool                             # Tool to resolve conflict
+                                      # vim diff
 :diffget LO                           # Commands to resolve merge conflict with 
 :diffget BA                           #   vimdiff resolving tool
 :diffget RE
+```
 
-################################################################################
-# History
-################################################################################
+## History
+```sh
 log             
 log -p                                # Shows the difference
 log -2                                # Only two latest commits
@@ -84,10 +107,10 @@ log b1 b2 ^b3                         # All commit that are reachable from b1
 log master...expirement               # To specify what is in master and
                                       #   but not any common references
 log --left-right master..expirement   # The same but in readable format
+```
 
-################################################################################
-# Undoings
-################################################################################
+## Undos
+```sh
 commit --amend                        # Replaces current stage area with latest 
                                       # commit. For example:
                                       #    git commit -m "My commit"
@@ -101,34 +124,34 @@ reset HEAD file.rb                    # Removes file.rb from staged area
 checkout -- file.rb                   # Reverts file changes
 filter-branch --tree-filter 'rm -f passwords.txt' HEAD # Removes passwords.txt
                                       #    file from all commits
+```
 
-################################################################################
 # Remote
-################################################################################
+```sh
 remote                                # Shows configured remote servers
 remote -v                             # Shows configured remote servers, verbose
-remote add [name] [url]               # Addes new remote server
+remote add [name] [url]               # Adds new remote server
 push [name]                           # Pushes to server with name=[name]
 fetch [name]                          # Fetches from server with name=[name]
 remote rename [name] [newname]        # Changes the name of the remote server
 rm [name]                             # Removes server with name=[name]
+```
 
-################################################################################
-# Tags
-################################################################################
+## Tags
+```sh
 tag                                   # Lists tags
-tag -l 'v1.2.*'                       # Finds a tag using wildcard
+tag -l 'v1.2.*'                       # Finds a tag using wild-card
 tag -a v1.2 -m 'Message'              # Adds an annotated tag v1.2
 tag show v1.2                         # Shows this fucking tag
 tag -s v1.2 -m 'Message'              # Tag with secret key to show
-tag v1.2                              # Ligthweight tag
+tag v1.2                              # Lightweight tag
 push origin v1.5                      # Pushes tag to remote repo
 push origin --tags                    # Pushes all tags
 tag -d v1.5                           # Removes tag
+```
 
-################################################################################
-# Branching
-################################################################################
+## Branching
+```sh
 branch                                # Lists existed branches
 branch -v                             # Lists existed branches with latest 
                                       #   commits
@@ -137,7 +160,6 @@ checkout [name]                       # Moves HEAD to branch with name=[name]
 checkout -b [name]                    # Creates and moves to branch [name]
 
 checkout -b 'hotfix'
-vi index.html
 add index.html
 commit -m 'Fixed...'
 checkout master
@@ -151,45 +173,46 @@ rebase master server                  # Replays server work on top of master
 checkout master
 merge server
 branch -d server
+```
 
-################################################################################
-# On the server
-################################################################################
-instaweb --httpd=webrick --stop       # Runs webserver locally
+## On the server
+```sh
+instaweb --httpd=webrick --stop       # Runs web server locally
+```
 
-################################################################################
-# Debugging
-################################################################################
-blame -L 12,22 myfile.rb              # Shows who and when have been chaneging
+## Debugging
+```sh
+blame -L 12,22 myfile.rb              # Shows who and when have been changing
                                       #   each line of this file
-bisect start                          # Binary seach of bad commit
+bisect start                          # Binary search of bad commit
 bisect bad
 bisect good v1.0
 bisect reset
 bisect run test-error.sh              # Runs scripts that returns 0 if commit is
                                       #   good and non-0 if bad. This will
                                       #   detect bad commit in few minutes
+```
 
-################################################################################
-# Submodules
-################################################################################
+## Submodules
+```sh
 submodule add git://github.com/chneukirchen/rack.git rack
 submodule init                        # Inits .gitmodules file
-submodule update                      # Fetchs submodule files
+submodule update                      # Fetches submodule files
+```
 
-################################################################################
-# Attributes
-################################################################################
+## Attributes
+```sh
 .gitattributes                        # File to define git attributes
 *.pbxproj binary                      # Treats file this files as binary
 *.doc diff=word                       # Word filter for .doc binaries
 *.png diff=exif                       # To diff images
-git config diff.exif.textconv exiftool # Uses exiftool to compare images
+config diff.exif.textconv exiftool    # Uses exiftool to compare images
 database.xml merge=ours
+```
 
-################################################################################
-# Hooks
-################################################################################
-# clien-side hooks are located at .git/hooks directory
+## Hooks
+```sh
+# client-side hooks are located at .git/hooks directory
+```
 
 
