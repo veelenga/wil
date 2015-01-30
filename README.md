@@ -7,7 +7,7 @@ So far:
 1. Course participation:
   - [Algorithms](https://www.coursera.org/course/algs4partI) by Robert Sedgewick: [algorithms](course/algorithms)
   - [Programming languages](https://www.coursera.org/course/proglang) by Dan Grossman: [programming-languages](course/programming-languages)
-  - [Saas](https://www.edx.org/course/engineering-software-service-uc-berkeleyx-cs169-1x) by Armando Fox and David Patterson: [saas](cousre/saas)
+  - [Saas](https://www.edx.org/course/engineering-software-service-uc-berkeleyx-cs169-1x) by Armando Fox and David Patterson: [saas](course/saas)
 2. My Notes:
   - [Vim](note/vim.md)
   - [Git](note/git.md)
