@@ -4,14 +4,15 @@ My personal collection of notes, links, books etc. used while learning programmi
 
 So far:
 
-1. Course participation:
+1. Courses participated:
   - [Algorithms](https://www.coursera.org/course/algs4partI) by Robert Sedgewick: [algorithms](course/algorithms)
   - [Programming languages](https://www.coursera.org/course/proglang) by Dan Grossman: [programming-languages](course/programming-languages)
   - [Saas](https://www.edx.org/course/engineering-software-service-uc-berkeleyx-cs169-1x) by Armando Fox and David Patterson: [saas](course/saas)
 2. My Notes:
   - [Vim](note/vim.md)
   - [Git](note/git.md)
-3. Books:
+  - [And Wiki...](https://github.com/veelenga/learn-programming/wiki)
+3. Books have been read:
   * Java 2: The Complete Reference, Third Edition, Herbert Schildt
   * Sun Certified Programmer for Java 6, Study Guide
   * The Pragmatic Programmer, From Journeyman To Master
@@ -20,3 +21,5 @@ So far:
   * The Ruby programming language - David Flanagan, Yakihio Matsumoto, 2008
   * Engineering. Software As a Service - Armando Fox, 2013
   * Ruby on Rails Tutorial by Michael Hartl, 2014
+  * [Learn Vimscript the hard way](http://learnvimscriptthehardway.stevelosh.com/) - Steve Losh (in progress)
+  * Eloquent Ruby - Addison Wesley, 2011 (in progress)
