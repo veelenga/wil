@@ -13,13 +13,13 @@ So far:
   - [Git](note/git.md)
   - [And Wiki...](https://github.com/veelenga/learn-programming/wiki)
 3. Books have been read:
-  * Java 2: The Complete Reference, Third Edition, Herbert Schildt
-  * Sun Certified Programmer for Java 6, Study Guide
-  * The Pragmatic Programmer, From Journeyman To Master
-  * Learning the vi and vim editors seventh editor. O'Reilly, 2008
-  * Pro Git - Scott Chacon, 2010
-  * The Ruby programming language - David Flanagan, Yakihio Matsumoto, 2008
-  * Engineering. Software As a Service - Armando Fox, 2013
-  * Ruby on Rails Tutorial by Michael Hartl, 2014
-  * [Learn Vimscript the hard way](http://learnvimscriptthehardway.stevelosh.com/) - Steve Losh (in progress)
+  * ✔ Java 2: The Complete Reference, Third Edition, Herbert Schildt
+  * ✔ Sun Certified Programmer for Java 6, Study Guide
+  * ✔ The Pragmatic Programmer, From Journeyman To Master
+  * ✔ Learning the vi and vim editors seventh editor. O'Reilly, 2008
+  * ✔ Pro Git - Scott Chacon, 2010
+  * ✔ The Ruby programming language - David Flanagan, Yakihio Matsumoto, 2008
+  * ✔ Engineering. Software As a Service - Armando Fox, 2013
+  * ✔ Ruby on Rails Tutorial by Michael Hartl, 2014
+  * ✔ [Learn Vimscript the hard way](http://learnvimscriptthehardway.stevelosh.com/) - Steve Losh
   * Eloquent Ruby - Addison Wesley, 2011 (in progress)
