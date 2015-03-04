@@ -1,7 +1,7 @@
 # Git notes
 Created after reading [Pro Git - Scott Chacon, 2010](https://progit.org/)
 
-Use all commands with `git` at the beginning(expect those that begins with `$` or `:`)
+Note: add `git` at the beginning of each command below (except those that begins with `$` or `:`)
 
 - [Help](#help)
 - [Config](#config)
