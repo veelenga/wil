@@ -23,3 +23,4 @@ So far:
   * ✔ Ruby on Rails Tutorial by Michael Hartl, 2014
   * ✔ [Learn Vimscript the hard way](http://learnvimscriptthehardway.stevelosh.com/) - Steve Losh
   * Eloquent Ruby - Addison Wesley, 2011 (in progress)
+  * Design Patterns in Ruby - Russ Olsen, 2006 (in progress)
