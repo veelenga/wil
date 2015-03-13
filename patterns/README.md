@@ -5,6 +5,7 @@ Examples implemented based on samples from book **Design Patterns in Ruby - Russ
 Currently we have:
 
 * [Template method] (#template-method)
+* [Strategy] (#strategy)
 
 ## Main aspects:
 
@@ -37,3 +38,7 @@ Currently we have:
 Method pattern is simply a fancy way of saying that if you want to vary an algorithm, one way to do so is to code the invariant part in a base class and to encapsulate the variable parts in methods that are defined by a number of subclasses.
 
 **Note**: duck typing has an important role here for dynamic languages.
+
+## Strategy
+
+![] (strategy/strategy.png)
