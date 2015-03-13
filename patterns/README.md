@@ -39,6 +39,15 @@ Method pattern is simply a fancy way of saying that if you want to vary an algor
 
 **Note**: duck typing has an important role here for dynamic languages.
 
+Disadvantage: no runtime change.
+
 ## Strategy
 
 ![] (strategy/strategy.png)
+
+Key idea is to define a family of objects, the **strategies**, which all do the same thing and all support the same interface. There is a user of the strategies - **context** - can treat the strategies like interchangeable parts.
+
+  * switch strategies in runtime
+  * better separation of concerns by pulling out a set of strategies
+
+**Note**: with Ruby we have 'quick and dirty' way to define strategy pattern using `Proc`s. But code-block strategies work only when the strategy interface is simple, one method affair.
