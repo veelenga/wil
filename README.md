@@ -11,6 +11,7 @@ So far:
 2. My Notes:
   - [Vim](note/vim.md)
   - [Git](note/git.md)
+  - [Patterns] (patterns)
   - [And Wiki...](https://github.com/veelenga/learn-programming/wiki)
 3. Books have been read:
   * ✔ Java 2: The Complete Reference, Third Edition, Herbert Schildt
