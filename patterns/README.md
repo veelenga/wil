@@ -1,9 +1,14 @@
-GoF patterns implemented in ruby.
+**GoF** patterns implemented in *Ruby*. Has learning purpose.
 
-Examples implemented based on samples from book **Design Patterns in Ruby - Russ Olsen, 2007**.
+There is a list of similar reporsitories in different languages:
+* [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
+* [design-patterns-in-ruby](https://github.com/nslocum/design-patterns-in-ruby)
+* [javascript-patterns](https://github.com/shichuan/javascript-patterns.git)
+* ...
 
-Currently we have:
+Some examples implemented based on samples from book **Design Patterns in Ruby - Russ Olsen, 2007**.
 
+* [Main aspects] (#main-oop-aspects)
 * [Template method] (#template-method)
 * [Strategy] (#strategy)
 
