@@ -11,6 +11,7 @@ Some examples implemented based on samples from book **Design Patterns in Ruby -
 * [Main aspects] (#main-oop-aspects)
 * [Template method] (#template-method)
 * [Strategy] (#strategy)
+* [Observer] (#observer)
 
 ## Main aspects:
 
@@ -56,3 +57,19 @@ Key idea is to define a family of objects, the **strategies**, which all do the 
   * better separation of concerns by pulling out a set of strategies
 
 **Note**: with Ruby we have 'quick and dirty' way to define strategy pattern using `Proc`s. But code-block strategies work only when the strategy interface is simple, one method affair.
+
+## Observer
+
+![] (observer/observer.png)
+
+The Observer pattern allows you to build components that know about the activities of other components without having to tightly couple everything together. By creating a clean interface between the source of the news (the observable object) and the consumer of that news (the observers), the Observer pattern moves the news without tangling things up.
+
+There are two methods of passing data from the subject to observers:
+
+* **Push model** - the subjects send detailed information about the change to the observer whether it uses it or not. Inefficient when a large amount of data needs to be sent and it is not used.
+
+* **Pull model** - the subject just notifies the observers when a change in his state appears and it's the responsibility of each observer to pull the required data from the subject. This can be inefficient because the communication is done in 2 steps and problems might appear in multi-threading environments.
+
+**Note**: Observer and Strategy pattern look very common: both feature an object that makes calls out to some other object. In the case of observer, we are informing the other object of the events occurring back at the observable, and in the case of the strategy, we are getting the strategy object to do some computing.
+
+**Note**: there is [Observable](http://ruby-doc.org/stdlib-2.2.0/libdoc/observer/rdoc/Observable.html) module in core ruby.
