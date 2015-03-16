@@ -12,6 +12,7 @@ Some examples implemented based on samples from book **Design Patterns in Ruby -
 * [Template method] (#template-method)
 * [Strategy] (#strategy)
 * [Observer] (#observer)
+* [Composite] (#composite)
 
 ## Main aspects:
 
@@ -73,3 +74,12 @@ There are two methods of passing data from the subject to observers:
 **Note**: Observer and Strategy pattern look very common: both feature an object that makes calls out to some other object. In the case of observer, we are informing the other object of the events occurring back at the observable, and in the case of the strategy, we are getting the strategy object to do some computing.
 
 **Note**: there is [Observable](http://ruby-doc.org/stdlib-2.2.0/libdoc/observer/rdoc/Observable.html) module in core ruby.
+
+## Composite
+
+![] (composite/composite.png)
+
+Composite pattern is needed when you are trying to build a hierarchy or tree of objects, and you do not want
+the code that uses the tree to constantly have to worry about whether it is dealing with a single object or a whole bushy branch of the tree.
+
+Composite consists of base interface - the **component**, **leaf** classes and the **composite** that is build from subcomponents.
