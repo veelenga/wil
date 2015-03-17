@@ -25,3 +25,4 @@ So far:
   * ✔ [Learn Vimscript the hard way](http://learnvimscriptthehardway.stevelosh.com/) - Steve Losh
   * Eloquent Ruby - Addison Wesley, 2011 (in progress)
   * Design Patterns in Ruby - Russ Olsen, 2006 (in progress)
+  * [Eloquent JavaScript](http://eloquentjavascript.net) by Marijn Haverbeke, 2015 (in progress)
