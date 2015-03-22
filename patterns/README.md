@@ -1,11 +1,5 @@
 **GoF** patterns implemented in *Ruby*. Has learning purpose.
 
-There is a list of similar reporsitories in different languages:
-* [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
-* [design-patterns-in-ruby](https://github.com/nslocum/design-patterns-in-ruby)
-* [javascript-patterns](https://github.com/shichuan/javascript-patterns.git)
-* ...
-
 Some examples implemented based on samples from book **Design Patterns in Ruby - Russ Olsen, 2007**.
 
 * [Main aspects] (#main-oop-aspects)
@@ -13,6 +7,8 @@ Some examples implemented based on samples from book **Design Patterns in Ruby -
 * [Strategy] (#strategy)
 * [Observer] (#observer)
 * [Composite] (#composite)
+* [Iterator] (#iterator)
+* [Useful links] (#useful-links)
 
 ## Main aspects:
 
@@ -83,3 +79,17 @@ Composite pattern is needed when you are trying to build a hierarchy or tree of 
 the code that uses the tree to constantly have to worry about whether it is dealing with a single object or a whole bushy branch of the tree.
 
 Composite consists of base interface - the **component**, **leaf** classes and the **composite** that is build from subcomponents.
+
+## Iterator
+This patterns allows to access object's collection of subobjects sequentially.
+
+There are two types of iterators: **external** (likely external class) and **internal** (iterating action inside the aggregate object). In most cases first is more applicable, but the second is widely used because it has short implementation.
+
+**Important**: the main dangerous point here is 'changing object while iterating' scenario. One way to avoid problems is to clone collection.
+
+
+## Useful links
+* [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
+* [design-patterns-in-ruby](https://github.com/nslocum/design-patterns-in-ruby)
+* [javascript-patterns](https://github.com/shichuan/javascript-patterns.git)
+* ...
