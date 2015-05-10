@@ -23,6 +23,7 @@ So far:
   * ✔ Engineering. Software As a Service - Armando Fox, 2013
   * ✔ Ruby on Rails Tutorial - Michael Hartl, 2014
   * ✔ [Learn Vimscript the hard way](http://learnvimscriptthehardway.stevelosh.com/) - Steve Losh
-  * Eloquent Ruby - Addison Wesley, 2011 (in progress)
+  * ~~Eloquent Ruby - Addison Wesley, 2011~~
   * Design Patterns in Ruby - Russ Olsen, 2006 (in progress)
   * [Eloquent JavaScript](http://eloquentjavascript.net) - Marijn Haverbeke (in progress)
+  * The Ruby Way: Solutions and Techniques in Ruby Programming, 3rd Edition - Hal Fulton, 2015 (in progress)
