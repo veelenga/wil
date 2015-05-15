@@ -9,8 +9,8 @@ So far:
   - [Programming languages](https://www.coursera.org/course/proglang) by Dan Grossman: [programming-languages](course/programming-languages)
   - [Saas](https://www.edx.org/course/engineering-software-service-uc-berkeleyx-cs169-1x) by Armando Fox and David Patterson: [saas](course/saas)
 2. My Notes:
-  - [Vim](note/vim.md)
-  - [Git](note/git.md)
+  - [Vim](https://gist.github.com/veelenga/401f8a30d9adad6ca899)
+  - [Git](https://gist.github.com/veelenga/ce6d03140379beeb879c)
   - [Patterns] (patterns)
   - [And Wiki...](https://github.com/veelenga/learn-programming/wiki)
 3. Books have been read:
