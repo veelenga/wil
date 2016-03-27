@@ -1,6 +1,6 @@
-# learn-programming
+# What I Learnt
 
-My personal collection of notes, links, books etc. used while learning programming.
+My personal collection of notes, links, books etc. created while learning technical topics.
 
 So far:
 
