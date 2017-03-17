@@ -4,11 +4,11 @@ Some examples implemented based on samples from book **Design Patterns in Ruby -
 
 * [Main aspects] (#main-oop-aspects)
 * [Template method] (#template-method)
-* [Strategy] (#strategy)
-* [Observer] (#observer)
-* [Composite] (#composite)
-* [Iterator] (#iterator)
-* [Useful links] (#useful-links)
+* [Strategy](#strategy)
+* [Observer](#observer)
+* [Composite](#composite)
+* [Iterator](#iterator)
+* [Useful links](#useful-links)
 
 ## Main aspects:
 
