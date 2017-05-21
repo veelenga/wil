@@ -25,7 +25,8 @@ So far:
   * ~~Eloquent Ruby - Addison Wesley, 2011~~
   * [x] Design Patterns in Ruby - Russ Olsen, 2006 (in progress)
   * [x] [Eloquent JavaScript](http://eloquentjavascript.net) - Marijn Haverbeke
-  * [ ] The Ruby Way: Solutions and Techniques in Ruby Programming, 3rd Edition - Hal Fulton, 2015 (in progress)
+  * [x] [Emacs Lisp](https://www2.cs.arizona.edu/classes/cs352/fall15/emacslisp.pdf)
+  * [ ] The Ruby Way: Solutions and Techniques in Ruby Programming, 3rd Edition - Hal Fulton, 2015
 
 Approaches to learn:
 
