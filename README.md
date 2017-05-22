@@ -26,7 +26,8 @@ So far:
   * [x] Design Patterns in Ruby - Russ Olsen, 2006 (in progress)
   * [x] [Eloquent JavaScript](http://eloquentjavascript.net) - Marijn Haverbeke
   * [x] [Emacs Lisp](https://www2.cs.arizona.edu/classes/cs352/fall15/emacslisp.pdf)
-  * [ ] The Ruby Way: Solutions and Techniques in Ruby Programming, 3rd Edition - Hal Fulton, 2015
+  * [x] The Ruby Way: Solutions and Techniques in Ruby Programming, 3rd Edition - Hal Fulton, 2015
+  * [x] Programming Elixir: Functional |> Concurrent |> Pragmatic |> Fun - Dave Thomas, 2016
 
 Approaches to learn:
 
