@@ -23,7 +23,7 @@ So far:
   * [x] Ruby on Rails Tutorial - Michael Hartl, 2014
   * [x] [Learn Vimscript the hard way](http://learnvimscriptthehardway.stevelosh.com/) - Steve Losh
   * ~~Eloquent Ruby - Addison Wesley, 2011~~
-  * [x] Design Patterns in Ruby - Russ Olsen, 2006 (in progress)
+  * [x] Design Patterns in Ruby - Russ Olsen, 2006
   * [x] [Eloquent JavaScript](http://eloquentjavascript.net) - Marijn Haverbeke
   * [x] [Emacs Lisp](https://www2.cs.arizona.edu/classes/cs352/fall15/emacslisp.pdf)
   * [x] The Ruby Way: Solutions and Techniques in Ruby Programming, 3rd Edition - Hal Fulton, 2015
