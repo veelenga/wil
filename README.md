@@ -28,6 +28,7 @@ So far:
   * [x] [Emacs Lisp](https://www2.cs.arizona.edu/classes/cs352/fall15/emacslisp.pdf)
   * [x] The Ruby Way: Solutions and Techniques in Ruby Programming, 3rd Edition - Hal Fulton, 2015
   * [x] Programming Elixir: Functional |> Concurrent |> Pragmatic |> Fun - Dave Thomas, 2016
+  * [x] Programming in Lua (first edition) - Roberto Ierusalimschy, 2003
 
 Approaches to learn:
 
