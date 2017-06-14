@@ -29,6 +29,7 @@ So far:
   * [x] The Ruby Way: Solutions and Techniques in Ruby Programming, 3rd Edition - Hal Fulton, 2015
   * [x] Programming Elixir: Functional |> Concurrent |> Pragmatic |> Fun - Dave Thomas, 2016
   * [x] Programming in Lua (first edition) - Roberto Ierusalimschy, 2003
+  * [ ] Machine Learning Refined : foundations, algorithms, and applications - Jeremy Watt, 2016
 
 Approaches to learn:
 
