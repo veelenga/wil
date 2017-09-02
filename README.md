@@ -34,6 +34,7 @@ So far:
   * [x] [Нейроні мережі і генетичні алгоритми](http://fs.onu.edu.ua/clients/client11/web11/metod/imem/neyron.pdf) - Кононюк А. Ю., 2008
   * [ ] Compilers. Principles, Technics & Tools - Aflred V. Aho, 2007
   * [ ] Language Implementation Patterns - Terence Parr, 2010
+  * [ ] [Implementing a language with LLVM](https://llvm.org/docs/tutorial/index.html) - LLVM Tutorial
 
 Approaches to learn:
 
