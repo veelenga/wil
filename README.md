@@ -22,7 +22,6 @@ So far:
   * [x] Engineering. Software As a Service - Armando Fox, 2013
   * [x] Ruby on Rails Tutorial - Michael Hartl, 2014
   * [x] [Learn Vimscript the hard way](http://learnvimscriptthehardway.stevelosh.com/) - Steve Losh
-  * ~~Eloquent Ruby - Addison Wesley, 2011~~
   * [x] Design Patterns in Ruby - Russ Olsen, 2006
   * [x] [Eloquent JavaScript](http://eloquentjavascript.net) - Marijn Haverbeke
   * [x] [Emacs Lisp](https://www2.cs.arizona.edu/classes/cs352/fall15/emacslisp.pdf)
