@@ -34,6 +34,7 @@ So far:
   * [ ] Compilers. Principles, Technics & Tools - Aflred V. Aho, 2007
   * [ ] Language Implementation Patterns - Terence Parr, 2010
   * [ ] [Implementing a language with LLVM](https://llvm.org/docs/tutorial/index.html) - LLVM Tutorial
+  * [ ] [Write you a Haskell. Building a modern functional compiler from first principles.](http://dev.stephendiehl.com/fun/index.html) - Stephen Diehl
 
 Approaches to learn:
 
