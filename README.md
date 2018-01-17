@@ -37,6 +37,7 @@ So far:
   * [ ] Language Implementation Patterns - Terence Parr, 2010
   * [ ] [Implementing a language with LLVM](https://llvm.org/docs/tutorial/index.html) - LLVM Tutorial
   * [ ] [Write you a Haskell. Building a modern functional compiler from first principles.](http://dev.stephendiehl.com/fun/index.html) - Stephen Diehl
+  * [ ] [Domain Driven Design](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) - Eric Evans, 2011
 
 Approaches to learn:
 
