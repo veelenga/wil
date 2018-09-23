@@ -34,6 +34,7 @@ So far:
   * [x] [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) - Mark Richards, 2015
   * [ ] [Ember 101](https://leanpub.com/ember-cli-101) - Adolfo Builes, 2016
   * [ ] [Effective JavaScript. 68 ways to Harness the Power of JavaScript](https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182) - David Herman, 2013 
+  * [ ] [Elixir in Action](https://www.manning.com/books/elixir-in-action) - Saša Jurić, 2018
   * [ ] [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.safaribooksonline.com/library/view/clean-architecture-a/9780134494272/) - Robert C. Martin, 2017
   * [ ] Compilers. Principles, Technics & Tools - Aflred V. Aho, 2007
   * [ ] Language Implementation Patterns - Terence Parr, 2010
