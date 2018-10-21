@@ -32,6 +32,7 @@ So far:
   * [x] [О Haskell по-человечески](https://www.ohaskell.guide) - Denis Shevchenko, 2012 
   * [x] [Нейроні мережі і генетичні алгоритми](http://fs.onu.edu.ua/clients/client11/web11/metod/imem/neyron.pdf) - Кононюк А. Ю., 2008
   * [x] [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) - Mark Richards, 2015
+  * [x] [It Doesn't Have to Be Crazy at Work](https://www.amazon.com/gp/product/B07G8L5NZ9/ref=adbl_dp_er_redir) - Jason Fried, 2018
   * [ ] [Ember 101](https://leanpub.com/ember-cli-101) - Adolfo Builes, 2016
   * [ ] [Effective JavaScript. 68 ways to Harness the Power of JavaScript](https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182) - David Herman, 2013 
   * [ ] [Elixir in Action](https://www.manning.com/books/elixir-in-action) - Saša Jurić, 2018
