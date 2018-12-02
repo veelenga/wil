@@ -34,6 +34,7 @@ So far:
   * [x] [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp) - Mark Richards, 2015
   * [x] [It Doesn't Have to Be Crazy at Work](https://www.amazon.com/gp/product/B07G8L5NZ9/ref=adbl_dp_er_redir) - Jason Fried, 2018
   * [x] [Ember 101](https://leanpub.com/ember-cli-101) - Adolfo Builes, 2016
+  * [ ] [Seven Concurrency Models in Seven Weeks](https://pragprog.com/book/pb7con/seven-concurrency-models-in-seven-weeks) - Paul Butcher, 2014
   * [ ] [Effective JavaScript. 68 ways to Harness the Power of JavaScript](https://www.amazon.com/Effective-JavaScript-Specific-Software-Development/dp/0321812182) - David Herman, 2013
   * [ ] [The Art of Invisibility](https://itunes.apple.com/us/book/the-art-of-invisibility/id1122078937?mt=11) - Kevin Mitnick, 2017
   * [ ] [Elixir in Action](https://www.manning.com/books/elixir-in-action) - Saša Jurić, 2018
