@@ -46,6 +46,7 @@ So far:
   * [ ] [Write you a Haskell. Building a modern functional compiler from first principles.](http://dev.stephendiehl.com/fun/index.html) - Stephen Diehl
   * [ ] [Domain Driven Design](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) - Eric Evans, 2011
   * [ ] [An Introduction to Programming in Emacs Lisp](https://www.gnu.org/software/emacs/manual/pdf/eintr.pdf) - Robert J. Chassell, 2009
+  * [ ] [Secure Programming with Static Analysis](https://www.amazon.com/Secure-Programming-Static-Analysis-Brian/dp/0321424778) - Brian Chess, 2007
 
 Approaches to learn:
 
